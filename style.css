@@ -5,6 +5,10 @@
 html {
     scroll-behavior: smooth;
   }
+  .logo img{
+    height: 80px;
+    padding: 2px;
+  }
 
 /* ====================== NAVIGATION CONTROL ================= */
 
