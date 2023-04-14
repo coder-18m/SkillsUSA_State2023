@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="{{ url_for ('static', filename='Imgs/newlogo5.png') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c8e01facf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+      </style>
+    <title>SkillsUSA | Home</title>
+</head>
+
+<script type="text/javascript">
+    window.addEventListener('touchstart', function(event){
+      var box = document.getElementById('ul-li-ul');
+      if (event.target != box && event.target.parentNode != box) {
+        box.style.display = 'none';
+      }
+    });
+  </script>
+<body>
+
+    <nav>
+
+        <label for="btn"><img class="bars" src="Imgs/menu.png" alt="Open Menu"></label>
+        <input class="nav-input" type="checkbox" id="btn">
+        <ul>
+    
+          <li>
+            <a class="mobile-li" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="mobile-li" href="info.html">Info</a>
+          </li>
+    <!-- href="javascript:void(0)" -->
+    
+            <li>
+                <a class="mobile-li" href="breeders.html">Breeders</a>
+            </li>
+            <li>
+                <a class="mobile-li" href="questions.html">Questions</a>
+            </li>
+    
+          <!--donate button was here-->
+    
+          
+    
+          <li><a class="facebook" href="https://www.facebook.com/groups/839190939753401/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+    
+          
+        </ul>
+    
+      </nav>
+    
+      <style>
+        html, body {
+        min-height: 100%;
+        }
+        body, div, form, input, select, p { 
+        padding: 0;
+        margin: 0;
+        outline: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 14px;
+        color: #666;
+        line-height: 22px;
+        }
+        h1 {
+        margin: 15px 0;
+        font-weight: 400;
+        }
+        .testbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        padding: 3px;
+        }
+        form {
+        width: 100%;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 2px 5px #ccc; 
+        }
+        input, select, textarea {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        }
+        input:hover, select:hover, textarea:hover {
+        outline: none;
+        border: 1px solid #095484;
+        }
+        input {
+        width: calc(100% - 10px);
+        padding: 5px;
+        }
+        select {
+        width: 100%;
+        padding: 7px 0;
+        background: transparent;
+        }
+        textarea {
+        width: calc(100% - 6px);
+        }
+        .item {
+        position: relative;
+        margin: 10px 0;
+        }
+        input[type="date"]::-webkit-inner-spin-button {
+        display: none;
+        }
+        .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        font-size: 20px;
+        color: #a9a9a9;
+        }
+        .item i {
+        right: 2%;
+        top: 30px;
+        z-index: 1;
+        }
+        [type="date"]::-webkit-calendar-picker-indicator {
+        right: 1%;
+        z-index: 2;
+        opacity: 0;
+        cursor: pointer;
+        }
+        .btn-block {
+        margin-top: 20px;
+        text-align: center;
+        }
+        button {
+        width: 150px;
+        padding: 10px;
+        border: none;
+        -webkit-border-radius: 5px; 
+        -moz-border-radius: 5px; 
+        border-radius: 5px; 
+        background-color: #095484;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        }
+        button:hover {
+        background-color: #0666a3;
+        }
+      </style>
+   
+      <div class="testbox">
+        <form class="form-dog" action="/">
+          <h1 class="title-ques">Submit Questions</h1>
+          <div class="item">
+            <p>Your name</p>
+            <div>
+              <input type="text" name="name" placeholder="First" />
+              <input type="text" name="name" placeholder="Last" />
+            </div>
+          </div>
+          <div class="item">
+            <p>Your email</p>
+            <input type="text" name="name"/>
+          </div>
+          <div class="item">
+            <p>Date of question</p>
+            <input type="date" name="name" required/>
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="item">
+            <p>Question</p>
+            <textarea rows="5"></textarea>
+          </div>
+          <div class="btn-block">
+            <button type="submit" href="/">Send</button>
+          </div>
+        </form>
+      </div>
+  
+    
+    
+    
+
+      
+
+  
+
+</body>
+</html>

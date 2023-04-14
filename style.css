@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/* ====================== NAVIGATION CONTROL ================= */
+
+nav{
+    background: #9DD2E4;
+    
+  }
+  .sub-a{
+    text-decoration: none;
+    font-size: 17px;
+  }
+  nav:after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+  nav ul{
+  
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+  }
+  nav ul li{
+    float: left;
+    display: inline-block;
+    background: #9DD2E4;
+    margin: 0 5px;
+    z-index: 999;
+  
+  }
+  nav ul li a{
+    color: black;
+    text-decoration: overline;
+  
+    line-height: 70px;
+    font-size: 20px;
+    padding: 8px 15px;
+    transition: .4s;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover{
+    color: white;
+  }
+  
+  nav ul ul{
+    transition: top .3s;
+    border-top: 3px solid white;
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+  
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+  
+  .submenu{
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  .show, .bars, .nav-input{
+    display: none;
+
+  }
+
+.home{
+    background-image:url('/Imgs/home.jpg');
+  /*background-image: url('static/Img/calv-home.jpg'); */
+  padding-bottom: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.home-title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+
+}
+.fa-arrow-down {
+    color: white;
+    font-size: 30px;
+    transition:all .5s ease;
+}
+.fa-arrow-down:hover{
+    padding-top: 10px;
+  transition:all .5s ease;
+}
+.lauren{
+    text-align: center;
+}
+.h1-dog{
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-top: 20px;
+}
+.explore{
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.p-lauren{
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.hr-lauren{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: #9DD2E4;
+}
+.laurendog{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 4px solid black;
+}
+.big-container{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+}
+.header-h1{
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+}
+.font-li{
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+}
+.comp-con{
+    margin-bottom: 20px;
+}
+
+/* PAGE TWO and THREE */
+.traits-ul{
+}
+iframe{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.breed-con{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.font-li-2{
+    font-family: 'Sofia Sans', sans-serif;
+    list-style-type: none;
+    
+}
+.supplise-con{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.title-ques{
+    font-family: 'Sofia Sans', sans-serif;
+}
+.form-dog{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+
+
+
+  /* ====================== FOOTER ================= */
+/*footer*/
+.fa-instagram{
+  font-size: 24px;
+  color: black;
+}
+
+footer{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: black;
+  bottom: 0px;
+  position: relative;
+  height: auto;
+  padding: 50px 100px;
+  background: #9DD2E4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .containerb{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .containerb .sec{
+  margin-right: 30px;
+}
+footer .containerb .sec.aboutus{
+  width: 40%;
+}
+footer .containerb h2{
+  position: relative;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .containerb h2:before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: black;
+}
+footer p{
+  color: black;
+}
+.sci{
+  margin-top: 20px;
+  display: flex;
+}
+.sci li{
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+.sci li a:hover{
+}
+.sci li a .fa{
+  color: #fff;
+  font-size: 20px;
+}
+.quickLinks{
+  position: relative;
+  width: 25%;
+}
+.quickLinks ul li{
+  list-style: none;
+}
+.quickLinks ul li a{
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quickLinks ul li a:hover{
+  color: #fff;
+}
+.contact{
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+.contact .info{
+  position: relative;
+}
+.contact .info li{
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1){
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span{
+  color: black;
+}
+.contact .info li a{
+  color: black;
+  text-decoration: none;
+}
+.contact .info li a:hover{
+  color: #fff;
+}
+.copyrightText{
+  font-family: 'Barlow Condensed', sans-serif;
+  background: #9DD2E4;
+  bottom: 0px;
+  width: 100%;
+  /* padding: 8px 100px; */
+  padding-bottom: 8px;
+  text-align: center;
+  color: black;
+}
+@media (max-width: 991px) {
+  footer{
+    padding: 40px;
+  }
+  footer .containerb{
+    flex-direction: column;
+  }
+  footer .container .sec{
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  footer .containerb .sec.aboutus, .quickLinks, .contact{
+    width: 100%;
+  }
+  .copyrightText{
+    /* padding: 8px 40px; */
+  }
+}
+/* end of footer */  
+/* ====================== END OF FOOTER ================= */
+
+
+
+    
+
+
+
+
+
+
+  @media all and (max-width: 830px) {
+    nav{
+      padding-bottom: 20px;
+    }
+    nav ul{
+      margin-right: 0px;
+      float: left;
+    }
+    nav ul li, nav ul ul li{
+      display: block;
+      width: 100%;
+    }
+    nav ul ul{
+      top: 70px;
+      position: static;
+      border-top: none;
+      float: none;
+      display: none;
+      opacity: 1;
+      visibility: visible;
+    }
+    nav ul ul ul li{
+      position: static;
+    }
+    nav ul ul a{
+      padding-left: 40px;
+    }
+    nav ul ul ul a{
+      padding-left: 80px;
+    }
+    .show{
+      text-decoration: overline;
+      display: block;
+      font-family: 'Barlow Condensed', sans-serif;
+      text-transform: uppercase;
+      color: black;
+      font-size: 18px;
+      padding: 0 20px;
+      line-height: 70px;
+      cursor: pointer;
+    }
+    .bars{
+      padding-top: 10px;
+      height: 30px;
+      display: block;
+      color: white;
+      line-height: 70px;
+      float: right;
+      margin-right: 20px;
+  
+    }
+    .show + a, nav ul{
+      display: none;
+    }
+    [id^=btn]:checked + ul{
+      display: block;
+    }
+    .mobile-li{
+      font-size: 18px;
+    }
+  
+  
+  }
+@media (min-width: 768px){
+    
+    .laurendog{
+        width: 40%;
+    }
+    .dog-item{
+        
+    }
+    iframe{
+        width: 40%;
+    }
+    .big-container{
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .breed-con, .supplise-con{
+        width: 90%;
+    }
+    }
