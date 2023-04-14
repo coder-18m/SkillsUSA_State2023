@@ -89,7 +89,7 @@ nav{
   }
 
 .home{
-    background-image:url('/Imgs/home.jpg');
+    background-image:url('Imgs/home.jpg');
   /*background-image: url('static/Img/calv-home.jpg'); */
   padding-bottom: 400px;
   background-size: cover;
